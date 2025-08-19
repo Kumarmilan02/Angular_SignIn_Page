@@ -1,0 +1,35 @@
+/* === Global Variables === */
+:root {
+    --radius: 32px;
+    --shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+    --gradient-start: #3b82f6;
+    /* blue */
+    --gradient-end: #06b6d4;
+    /* cyan/teal */
+    --brand: #14b8a6;
+}
+
+/* === Reset & Font === */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #0f172a;
+
+    /* ✅ Background like your reference image */
+    background:
+        radial-gradient(1200px 800px at 20% 10%, #0b1e39, transparent 70%),
+        radial-gradient(1000px 700px at 80% 90%, #0a1529, #050c1a 70%);
+
+    display: grid;
+    place-items: center;
+    padding: 24px;
+}
